@@ -1,0 +1,22 @@
+{
+  "help": {
+    "briefDescription": "gives command help",
+    "longDescription": "This command can list all commands or provide help with specific commands.\nWith no [command] argument, all commands are listed with brief descriptions.\nWith a [command] argument, more detailed information is given about a specific command.",
+    "usage": "help [command]"
+  },
+  "delete": {
+    "briefDescription": "deletes messages",
+    "longDescription": "This command makes it easy to delete multiple messages.\nWhen run, the n previous messages are deleted.\nn must be a positive integer and be less than or equal to 20.\nAlso, this command can take a while to complete.",
+    "usage": "delete n"
+  },
+  "talkFor": {
+    "briefDescription": "talks in chat for you",
+    "longDescription": "This command makes the bot talk for you in chat.\nIt says whatever message you give it and then deletes your original command.\nThis makes it look like the bot is talking on its own.",
+    "usage": "talkFor message"
+  },
+  "meanPhrase": {
+    "briefDescription": "sends you a mean phrase",
+    "longDescription": "This command sends a mean phrase to you from a predetermined list.\nA mean phrase will also be sent to people trying to access this bot without permission.",
+    "usage": "meanPhrase"
+  }
+}
